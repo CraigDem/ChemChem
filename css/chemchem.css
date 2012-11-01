@@ -1,0 +1,102 @@
+   /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -46px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 40px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      
+      .container .credit {
+        margin: 5px 0;
+      }
+      
+      
+      .navbar-wrapper {
+        position: relative;
+        z-index: 10;
+      }
+      .navbar-wrapper .navbar-inner {
+        border: 0;
+        -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+           -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+                box-shadow: 0 2px 10px rgba(0,0,0,.25);
+        border-radius: 0 !important;
+      }
+      .navbar-wrapper .brand {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 14px 20px 16px;
+      }
+      .navbar-wrapper .brand {
+        color: #878787;
+        text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+      }
+      .navbar-wrapper .brand:hover {
+        color: #555;
+      }
+      .navbar .nav > li > a {
+        padding: 15px 20px;
+      }
+      .navbar .btn-navbar {
+        margin-top: 10px;
+      }
+      
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+        width: 200px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+      
+      .input-append {
+	      padding-left: 20px;
+      }
