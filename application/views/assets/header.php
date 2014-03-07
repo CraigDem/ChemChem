@@ -48,6 +48,7 @@
                 <ul class="dropdown-menu">
                   <li class="nav-header">Calculations</a></li>
                   <li><a href="<?php echo site_url("Chemistry/beer_lambert_input"); ?>">Beer Lambert Law</a></li>
+                  <li><a href="<?php echo site_url("Chemistry/ideal_gas_input"); ?>">Ideal Gas Law</a></li>
                 </ul>
               </li>
             </ul>
